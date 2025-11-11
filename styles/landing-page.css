@@ -1,0 +1,290 @@
+/* Styles´s reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #18191c;
+}
+
+.header-wrapper {
+  width: 100;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.header-wrapper > .logo-wrapper {
+  margin-left: 30px;
+
+  img {
+    width: 260px;
+  }
+}
+
+.header-wrapper > .navigation-wrapper {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.header-wrapper > .navigation-wrapper > .title-nav-wrapper {
+  color: rgb(236, 219, 110);
+  font-size: 1.5em;
+}
+
+.header-wrapper > .navigation-wrapper > .menu-nav-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-wrapper > .navigation-wrapper > .menu-nav-wrapper > .main-menu-wrapper {
+  display: flex;
+  gap: 10px;
+  font-size: 1.9em;
+  font-weight: 900;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+      align-items: center;
+      margin-right: 15px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    li:last-child {
+      margin-left: 30px;
+      font-size: 0.95em;
+
+      a {
+        color: rgb(150, 150, 150);
+        font-weight: 700;
+      }
+
+      i {
+        margin-left: 15px;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+.header-wrapper > .buttons-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.header-wrapper > .buttons-wrapper button {
+  height: 70px;
+  color: white;
+  background-color: #32343b;
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-size: 1.7em;
+  cursor: pointer;
+}
+
+.header-wrapper > .buttons-wrapper button#signup {
+  width: 165px;
+  margin-left: 18px;
+}
+.header-wrapper > .buttons-wrapper button#login {
+  width: 145px;
+}
+.header-wrapper > .buttons-wrapper > .search {
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  cursor: pointer;
+
+  i {
+    font-size: 3rem;
+    color: grey;
+  }
+}
+.header-wrapper > .buttons-wrapper button#create {
+  width: 195px;
+
+  i {
+    margin-left: 15px;
+    font-size: 2rem;
+    color: #47c472;
+  }
+}
+
+.main-wrapper {
+  background: radial-gradient(circle at top left, #34373f 0%, transparent 80%),
+    radial-gradient(circle at top right, #08080a 0%, transparent 80%),
+    radial-gradient(circle at bottom left, #212329 0%, transparent 80%),
+    radial-gradient(circle at bottom right, #020203 0%, transparent 80%),
+    #0a0a0b;
+  background-attachment: fixed;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-wrapper > .main-content-wrapper {
+  width: 100%;
+  height: 920px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.main-wrapper > .main-content-wrapper > .article-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px 60px 60px;
+}
+
+.main-wrapper > .main-content-wrapper > .article-wrapper > .article-content {
+  width: 100%;
+
+  p:first-child {
+    font-size: 3.3rem;
+    line-height: 1.3;
+    color: white;
+    font-weight: 300;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p:last-child {
+    font-size: 2.77rem;
+    margin-top: 30px;
+    line-height: 1.5;
+    color: #b4bbac;
+    font-weight: 400;
+  }
+}
+
+.main-wrapper > .main-content-wrapper > .article-wrapper > .buttons-article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.main-wrapper
+  > .main-content-wrapper
+  > .article-wrapper
+  > .buttons-article
+  > .btn-free-article {
+  width: 400px;
+  height: 100px;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 15px;
+  font-size: 2.5rem;
+  background-color: #4bce79;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.main-wrapper
+  > .main-content-wrapper
+  > .article-wrapper
+  > .buttons-article
+  > .btn-learn-article {
+  width: 300px;
+  height: 99px;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 15px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.main-wrapper > .main-content-wrapper > .image-wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  padding-top: 40px;
+}
+
+.main-wrapper > .main-content-wrapper > .image-wrapper > .title-image {
+  font-family: "Lato";
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 40px;
+
+  span {
+    color: #75e8ff;
+  }
+}
+
+.main-wrapper > .main-content-wrapper > .image-wrapper > .image-content {
+  margin-bottom: 10px;
+  img {
+    width: 100%;
+    box-shadow: 5px 0px 32px 0px black;
+  }
+}
+
+.main-wrapper > .rectangles-wrapper {
+  width: 100%;
+  height: 80px;
+  background-color: #36383f;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+
+  .rectangle-content {
+    border: 1px solid rgb(128, 128, 128);
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.3rem;
+    font-family: "Lato";
+    font-weight: 600;
+
+    span {
+      font-family: "League Spartan", sans-serif;
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: -2px;
+      margin-left: 5px;
+    }
+  }
+}
+
+.footer-wrapper {
+  height: 150px;
+}
