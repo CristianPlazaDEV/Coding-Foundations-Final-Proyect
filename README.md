@@ -22,22 +22,22 @@ The goal was to replicate the original CodePen landing page design as accurately
 
 **Original Design:**
 
-![Objective](images/readme/objetive-final-proyect-coding-foundations.jpg)
+![Objective](images/readme/objetive-final-proyect-coding-foundations.png)
 
 **Final Result:**
 
-![Result](images/readme/resutl-final-proyect-coding-foundations.jpg)
+![Result](images/readme/resutl-final-proyect-coding-foundations.png)
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|-----------|---------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Semantic structure and content organization |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Styling, layouts, and visual effects |
-| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white) | Icons and visual elements |
-| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white) | Custom typography (Lato, League Spartan) |
+| Technology                                                                                                             | Purpose                                     |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)                     | Semantic structure and content organization |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)                        | Styling, layouts, and visual effects        |
+| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white) | Icons and visual elements                   |
+| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white)      | Custom typography (Lato, League Spartan)    |
 
 ---
 
@@ -65,12 +65,14 @@ coding-foundations-final-project/
 ## ✨ Key Features Implemented
 
 ### 🎯 Header Section
+
 - **Responsive navigation bar** with logo and menu items
 - **Interactive buttons** (Create, Search, Log In, Sign Up)
 - **Dropdown indicators** for expandable menu items
 - **Custom styling** with dark theme
 
 ### 🌟 Hero Section
+
 - **Two-column layout** with content and image
 - **Gradient background** with multiple radial gradients
 - **Typography hierarchy** with custom font weights
@@ -78,6 +80,7 @@ coding-foundations-final-project/
 - **Featured section** showcasing CodePen Projects
 
 ### 📊 Footer Bar
+
 - **Grid layout** with four equal sections
 - **Custom typography** using League Spartan font
 - **Themed content** (TEAMS, EDUCATION, PRIVACY, WRITING)
@@ -87,20 +90,22 @@ coding-foundations-final-project/
 ## 🎨 CSS Highlights
 
 ### 🌈 Custom Gradients
+
 ```css
 background: radial-gradient(circle at top left, #34373f 0%, transparent 80%),
-            radial-gradient(circle at top right, #08080a 0%, transparent 80%),
-            radial-gradient(circle at bottom left, #212329 0%, transparent 80%),
-            radial-gradient(circle at bottom right, #020203 0%, transparent 80%),
-            #0a0a0b;
+  radial-gradient(circle at top right, #08080a 0%, transparent 80%),
+  radial-gradient(circle at bottom left, #212329 0%, transparent 80%),
+  radial-gradient(circle at bottom right, #020203 0%, transparent 80%), #0a0a0b;
 ```
 
 ### 📏 Flexbox Layout
+
 - Flexible navigation system
 - Responsive button arrangements
 - Content alignment and distribution
 
 ### 🎭 Typography
+
 - **Primary Font:** Lato (100, 300, 400, 700, 900 weights)
 - **Accent Font:** League Spartan (variable weights)
 - **Icon Library:** Font Awesome 6
@@ -110,16 +115,19 @@ background: radial-gradient(circle at top left, #34373f 0%, transparent 80%),
 ## 🚀 How to Run
 
 1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/yourusername/coding-foundations-final-project.git
+   git clone https://github.com/CristianPlazaDEV/Coding-Foundations-Final-Proyect.git
    ```
 
 2. **Navigate to the project folder:**
+
    ```bash
    cd coding-foundations-final-project
    ```
 
 3. **Open the project:**
+
    - Simply open `index.html` in your preferred web browser
    - Or use a local server (Live Server extension in VS Code recommended)
 
@@ -130,13 +138,13 @@ background: radial-gradient(circle at top left, #34373f 0%, transparent 80%),
 
 ## 📸 Screenshots Comparison
 
-| Aspect | Original Design | My Implementation |
-|--------|----------------|-------------------|
-| Header | ✅ Faithful reproduction | ✅ Pixel-perfect match |
-| Hero Section | ✅ Complex gradients | ✅ Successfully replicated |
-| Typography | ✅ Custom fonts | ✅ Identical styling |
-| Layout | ✅ Two-column design | ✅ Responsive structure |
-| Footer | ✅ Grid system | ✅ Clean implementation |
+| Aspect       | Original Design          | My Implementation          |
+| ------------ | ------------------------ | -------------------------- |
+| Header       | ✅ Faithful reproduction | ✅ Pixel-perfect match     |
+| Hero Section | ✅ Complex gradients     | ✅ Successfully replicated |
+| Typography   | ✅ Custom fonts          | ✅ Identical styling       |
+| Layout       | ✅ Two-column design     | ✅ Responsive structure    |
+| Footer       | ✅ Grid system           | ✅ Clean implementation    |
 
 ---
 
@@ -155,13 +163,13 @@ Through this project, I strengthened my skills in:
 
 ## 🌟 Challenges & Solutions
 
-| Challenge | Solution |
-|-----------|----------|
+| Challenge                    | Solution                                                |
+| ---------------------------- | ------------------------------------------------------- |
 | Complex gradient backgrounds | Used multiple radial gradients with precise positioning |
-| Font weight variations | Imported multiple font weights from Google Fonts |
-| Layout precision | Applied flexbox with careful spacing and alignment |
-| Button styling | Created consistent, reusable button styles |
-| Image positioning | Used flexible containers with proper sizing |
+| Font weight variations       | Imported multiple font weights from Google Fonts        |
+| Layout precision             | Applied flexbox with careful spacing and alignment      |
+| Button styling               | Created consistent, reusable button styles              |
+| Image positioning            | Used flexible containers with proper sizing             |
 
 ---
 
@@ -179,9 +187,10 @@ Through this project, I strengthened my skills in:
 ## 👨‍💻 Author
 
 **Your Name**
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [Your GitHub Profile](https://github.com/yourusername)
+
+- 📧 Email: cristianplazadev@gmail.com
+- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/cristian-plaza-2a3819364/)
+- 🐙 GitHub: [Your GitHub Profile](https://github.com/CristianPlazaDEV)
 
 ---
 
@@ -211,8 +220,8 @@ If you have any questions, suggestions, or feedback about this project, feel fre
 
 <div align="center">
 
-**Made with ❤️ and lots of ☕ by [Your Name]**
+**Made with ❤️ and lots of ☕ by CristianPlazaDEV**
 
-*Coding Foundations Bootcamp - 2025*
+_Coding Foundations Bootcamp - 2025_
 
 </div>
