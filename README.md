@@ -189,8 +189,8 @@ Through this project, I strengthened my skills in:
 **Your Name**
 
 - 📧 Email: cristianplazadev@gmail.com
-- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/cristian-plaza-2a3819364/)
-- 🐙 GitHub: [Your GitHub Profile](https://github.com/CristianPlazaDEV)
+- 💼 LinkedIn: [Cristian Plaza](https://www.linkedin.com/in/cristian-plaza-2a3819364/)
+- 🐙 GitHub: [@CristianPlazaDEV](https://github.com/CristianPlazaDEV)
 
 ---
 
